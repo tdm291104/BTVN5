@@ -1,0 +1,131 @@
+.banner{
+    display: flex;
+    height: 50px;
+    background-color: #171321;
+    margin: 0px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+.element-banner{
+    margin-left: 24px;
+}
+.banner a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.banner a i{
+    text-decoration: none;
+}
+.banner i{
+    color: #fff;
+    margin-left: 5px;
+    transition: 1s;
+}
+.banner a:hover i{
+    transform: translateX(10px);
+}
+
+.header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    height: 42px;
+    padding-left: 0px;
+}
+.box ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.box img{
+    width: 30px;
+}
+.box ul li{
+    margin: 5px;
+    padding: 0px 5px;
+}
+.header a{
+    text-decoration: none;
+    color: #74717a;
+}
+i{
+    color: #171321;
+}
+.Getfreetrial{
+    padding-top: 10px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    background-color: #171321;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #171321;
+    border-radius: 4px;
+    transition: 1s;
+}
+.Getfreetrial:hover{
+    color: #171321;
+    background-color: #fff;
+}
+.class3{
+    display: flex;
+    flex-direction: column;
+}
+.class3 .headertop a{
+    text-decoration: none;
+}
+.class3 .headertop .Getfreetrial{
+    width: 100%;
+    border-radius: 0px;
+}
+
+@media only screen and (min-width: 1025px){
+
+    .class1{
+        display: flex;
+    }
+    .class2{
+        display: none;
+    }
+    .class3{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1025px) AND (min-width: 575px) {
+    .class1{
+        display: none;
+    }
+    .class2{
+        display: flex;
+    }
+    .class3{
+        display: none;
+    }
+}
+@media only screen and (max-width: 575px) AND (min-width: 0px) {
+    .class1{
+        display: none;
+    }
+    .class2{
+        display: none;
+    }
+    .class3{
+        display: flex;
+    }
+    #banner3{
+        display: flex;
+        color: #171321;
+        background-color: #eee7fd;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #banner3 a{
+        color: #7759c2;
+    }
+}
+
